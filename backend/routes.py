@@ -14,7 +14,7 @@ def task_to_dict(t: Tasks):
 
 
 
-# List all (optionally ?completed=true/false)
+#list
 @routes_bp.get("/tasks")
 def list_tasks():
     q = Tasks.query
